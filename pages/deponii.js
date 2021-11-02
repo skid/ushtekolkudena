@@ -3,7 +3,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Deponii() {
   const oneDay = 24 * 60 * 60 * 1000; // hours*minutes*seconds*milliseconds
-  const firstDate = new Date(`2021-11-01:00:00:00`);
+  const firstDate = new Date("2021-11-01T00:00:00Z");
   const secondDate = new Date();
 
   firstDate.setDate(firstDate.getDate() + 82);
